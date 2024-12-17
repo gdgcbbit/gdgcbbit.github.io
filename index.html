@@ -1,24 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GDG on Campus BBIT</title>
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="text plus-jakarta-sans-main-text">
-        Welcome to GDG on Campus BBIT !
-      </div>
-      <div class="logo">
-        <img src="assets/images/gdgcbbit.png" alt="GDGC BBIT Logo">
-      </div>
-    </div>
-  </body>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/images/gdgcbbit.png" alt="GDGC BBIT Logo" class="logo-image">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#past-events">Past Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Header Section -->
+    <section class="header">
+        <h1 class="main-title">Welcome to GDG on Campus BBIT!</h1>
+        <a href="#about" class="cta-button">Join Us Now</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About GDG on Campus BBIT</h2>
+        <p>Google Developers Group at BBIT is a student-driven community for developers and tech enthusiasts. Join us to learn, grow, and innovate!</p>
+        <a href="#contact" class="cta-button-about">
+          Contact Us
+        </a>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section class="events" id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <h3>Yet to be declared</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <a href="#">btn</a>
+            </div>
+            <div class="event-card">
+                <h3>Yet to be declared</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <a href="#">btn</a>
+            </div>
+            <div class="event-card">
+                <h3>Yet to be declared</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <a href="#">btn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Events Section -->
+    <section class="past-events" id="past-events">
+        <h2>Past Events</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <h3>Web Wild West</h3>
+                <p>Learn the basics of web development and web application creation.</p>
+                <p><strong>Date:</strong> December 13, 2024</p>
+            </div>
+            <div class="event-card">
+                <h3>Power-Up with Python</h3>
+                <p>Learn more about backend as well as power-up your Python skills.</p>
+                <p><strong>Date:</strong> December 14, 2024</p>
+            </div>
+            <div class="event-card">
+                <h3>Deploy and Conquer</h3>
+                <p>This workshop provided hands-on experience with GitHub.</p>
+                <p><strong>Date:</strong> December 16, 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Follow Us:</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">Instagram</a>
+            <a href="#" class="social-icon">LinkedIn</a>
+        </div>
+        <p>&copy; 2024 GDG on Campus BBIT</p>
+    </footer>
+
+</body>
 </html>
