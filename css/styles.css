@@ -1,0 +1,54 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set default styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /* Light mode background */
+    color: black; /* Light mode text color */
+}
+
+/* Container to hold text and logo */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the text to make it bold */
+.plus-jakarta-sans-main-text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Set font-weight to 700 for bold text */
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Increased logo size */
+.logo img {
+    max-width: 250px; /* Increase max-width to make the logo larger */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Dark mode styles using prefers-color-scheme media query */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212; /* Dark background */
+        color: white; /* Light text color */
+    }
+
+    .plus-jakarta-sans-main-text {
+        color: white; /* White text for dark mode */
+    }
+}
